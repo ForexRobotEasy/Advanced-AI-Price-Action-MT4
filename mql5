@@ -1,0 +1,42 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                           Advanced AI Price Action MT4 |
+//|                                                    forexroboteasy.com |
+//|                                                Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+
+#property copyright 'forexroboteasy.com'
+#property link      'forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   // Insert code here for initialization
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+   // Insert code here for deinitialization
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   // Insert code here for trading logic
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+   // Insert code here for backtesting and live trading
+}
